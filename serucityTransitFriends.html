@@ -1,0 +1,145 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Politique de Confidentialité - Transit Friends</title>
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --accent-color: #3498db;
+            --bg-color: #f4f7f6;
+            --text-color: #333;
+            --card-bg: #ffffff;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 2rem 1rem;
+            text-align: center;
+            border-bottom: 4px solid var(--accent-color);
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        .card {
+            background: var(--card-bg);
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            margin-bottom: 2rem;
+        }
+
+        h1 { margin: 0; font-size: 1.8rem; }
+        h2 { 
+            color: var(--primary-color); 
+            border-left: 4px solid var(--accent-color);
+            padding-left: 10px;
+            margin-top: 1.5rem;
+        }
+
+        .last-update {
+            font-style: italic;
+            color: #666;
+            font-size: 0.9rem;
+        }
+
+        ul { padding-left: 1.2rem; }
+        li { margin-bottom: 0.5rem; }
+
+        .footer {
+            text-align: center;
+            padding: 2rem;
+            font-size: 0.8rem;
+            color: #888;
+        }
+
+        .contact-box {
+            background-color: #e8f4fd;
+            padding: 1rem;
+            border-radius: 5px;
+            border: 1px solid var(--accent-color);
+            word-break: break-all;
+        }
+
+        @media (max-width: 600px) {
+            .card { padding: 1rem; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="header">
+    <h1>Transit Friends</h1>
+    <p>La mobilité urbaine, plus agréable à plusieurs.</p>
+</div>
+
+<div class="container">
+    <div class="card">
+        <p class="last-update">Dernière mise à jour : 22 avril 2026</p>
+        
+        <p>Chez <strong>Transit Friends</strong>, nous croyons que la mobilité urbaine est plus agréable à plusieurs. Pour rendre cela possible, nous collectons certaines informations, mais nous nous engageons à protéger votre vie privée.</p>
+
+        <h2>1. Collecte des Données</h2>
+        <p>Nous collectons uniquement les données nécessaires au bon fonctionnement du service :</p>
+        <ul>
+            <li><strong>Informations de compte :</strong> Nom d'utilisateur, adresse e-mail et photo de profil (optionnelle).</li>
+            <li><strong>Données de Localisation :</strong> Nous collectons votre position GPS uniquement lorsque vous activez un trajet ou que vous utilisez la fonction "Trajets Récurrents".</li>
+            <li><strong>Données de Transport :</strong> Les lignes et stations de transport que vous enregistrez comme favorites ou habituelles.</li>
+        </ul>
+
+        <h2>2. Utilisation de la Localisation</h2>
+        <p>C'est le cœur de notre application :</p>
+        <ul>
+            <li><strong>Mode Trajet :</strong> Votre position n'est partagée avec vos amis que lorsque vous déclarez être "en trajet".</li>
+            <li><strong>Algorithme de Proximité :</strong> Nous utilisons vos données pour vous prévenir si un ami se trouve sur la même ligne de métro/bus que vous au même instant.</li>
+            <li><strong>Confidentialité par défaut :</strong> Votre position exacte n'est jamais vendue à des tiers. Elle sert uniquement à la mise en relation avec vos amis.</li>
+        </ul>
+
+        <h2>3. Partage des Données</h2>
+        <p>Vos informations de trajet sont visibles uniquement par :</p>
+        <ul>
+            <li><strong>Vos Amis :</strong> Les personnes que vous avez explicitement acceptées dans votre liste d'amis.</li>
+            <li><strong>Vous-même :</strong> Pour consulter l'historique de vos trajets récurrents.</li>
+        </ul>
+
+        <h2>4. Vos Droits (RGPD)</h2>
+        <p>Conformément à la réglementation, vous disposez des droits suivants :</p>
+        <ul>
+            <li><strong>Droit d'accès :</strong> Vous pouvez demander une copie de vos données à tout moment.</li>
+            <li><strong>Droit à l'oubli :</strong> Vous pouvez supprimer votre compte et toutes vos données associées en un clic dans les réglages.</li>
+            <li><strong>Droit d'opposition :</strong> Vous pouvez désactiver le partage de position en temps réel tout en continuant à utiliser les autres fonctions de l'app.</li>
+        </ul>
+
+        <h2>5. Sécurité</h2>
+        <p>Toutes vos données de localisation sont chiffrées lors du transfert vers nos serveurs (via SSL/TLS) pour éviter toute interception malveillante.</p>
+
+        <h2>6. Contact</h2>
+        <p>Pour toute question sur vos données, vous pouvez nous contacter :</p>
+        <div class="contact-box">
+            <strong>Email :</strong> florian.billon@epitech.eu
+        </div>
+    </div>
+</div>
+
+<div class="footer">
+    &copy; 2026 Transit Friends - Tous droits réservés.
+</div>
+
+</body>
+</html>
